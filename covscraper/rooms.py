@@ -1,16 +1,18 @@
 ROOMS = {
+
 "ASG31":   {"desc":"", "size":100, "equip":("pc",)},
 "AS200":   {"desc":"", "size":47, "equip":("pc",)},
 "MFG15/16":{"desc":"", "size":8*6-1, "equip":("pc",)},
 "WM308":   {"desc":"", "size":5*6, "equip":("pc",)},
 
-"ECM-01A": {"desc":"mathlab", "size":None},
-"ECM-01B": {"desc":"",        "size":None},
-"ECM-15":  {"desc":"",        "size":None},
-"ECM-15A": {"desc":"maclab",  "size":None, "equip":("mac",)},
-"ECM-18":  {"desc":"",        "size":6*6, "equip":("pc",)},
 
-"ECG-01":  {"desc":"",        "size":None},
+    "ECM-01A": {"desc":"mathlab", "size":None},
+    "ECM-01B": {"desc":"",        "size":None},
+    "ECM-15":  {"desc":"",        "size":None},
+    "ECM-15A": {"desc":"maclab",  "size":None, "equip":("mac",)},
+    "ECM-18":  {"desc":"",        "size":6*6, "equip":("pc",)},
+    
+    "ECG-01":  {"desc":"",        "size":None},
 "ECG-02":  {"desc":"",        "size":None},
 "ECG-03":  {"desc":"",        "size":5*6, "equip":("pc",)},
 "ECG-04":  {"desc":"",        "size":4*6, "equip":("pc",)},
@@ -18,6 +20,7 @@ ROOMS = {
 "ECG-13":  {"desc":"",        "size":None},
 "ECG-14":  {"desc":"",        "size":7*6, "equip":("pc",)},
 "ECG-15":  {"desc":"",        "size":7*6, "equip":("pc",)},
+
 "ECG-24":  {"desc":"lecture", "size":None},
 "ECG-26":  {"desc":"lecture", "size":None},
 "ECG-27":  {"desc":"lecture", "size":None},
@@ -48,6 +51,7 @@ ROOMS = {
 "EC2-12":  {"desc":"",         "size":5*8, "equip":("pc",)},
 "EC2-13":  {"desc":"",         "size":7*6, "equip":("pc",)},
 "EC2-14":  {"desc":"gameslab", "size":7*6, "equip":("pc",)},
+
 "EC2-24":  {"desc":"planet",   "size":None},
 "EC2-25":  {"desc":"planet",   "size":None},
 
@@ -57,4 +61,8 @@ ROOMS = {
 "EC3-42": {"desc":"Private Space (EC Use Only) 8 - No students No AV/PC", "size":8, "equip":("meeting",)},
 "EC4-32": {"desc":"Meeting Room - 18 - No students AV but bring your own laptop", "size":18, "equip":("meeting",)},
 "EC4-11": {"desc":"Private Space (EC Use Only - Dean' Office)", "size":None, "equip":("meeting",)},
-"EC4-38": {"desc":"Private Space (EC Use Only) 8 -No students No AV/PC", "size":8, "equip":("meeting",)}
+    "EC4-38": {"desc":"Private Space (EC Use Only) 8 -No students No AV/PC", "size":8, "equip":("meeting",)}
+
+    }
+
+    
